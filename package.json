@@ -11,18 +11,27 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "@vueuse/core": "^12.7.0",
+    "vue": "^3.5.13",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@rsbuild/core": "^1.2.8",
-    "@rsbuild/plugin-vue": "^1.0.5",
-    "typescript": "^5.7.3"
+    "@rsbuild/core": "^1.2.11",
+    "@rsbuild/plugin-vue": "^1.0.6",
+    "@tailwindcss/postcss": "^4.0.8",
+    "postcss-load-config": "^6.0.1",
+    "tailwindcss": "^4.0.8",
+    "typescript": "^5.7.3",
+    "vite-plugin-font": "^5.1.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
       "@biomejs/biome",
-      "core-js"
+      "cn-font-split",
+      "core-js",
+      "koffi",
+      "protobufjs"
     ]
   },
   "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af"
